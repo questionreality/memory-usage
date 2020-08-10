@@ -1,0 +1,31 @@
+{
+  "name": "memory-usage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start:client & npm run start:server",
+    "start:client": "parcel src/index.html",
+    "start:server": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "Vivek Varma",
+  "license": "MIT",
+  "dependencies": {
+    "and": "0.0.3",
+    "nodemon": "^2.0.4",
+    "npm": "^6.14.7",
+    "os-utils": "0.0.14",
+    "parcel": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "recharts": "^2.0.0-beta.6",
+    "run": "^1.4.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "start": "^5.1.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
